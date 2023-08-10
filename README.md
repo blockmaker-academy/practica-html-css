@@ -60,7 +60,7 @@ La página se divide en 4 secciones, ¡y ya las hemos dividido en partes generos
 En general, los diseños de sitios web no aparecen de la nada, por lo que es probable que tengas maquetas/bocetos que debas integrar. Por lo tanto, es una buena práctica dividir el sitio web en partes antes de codificar para ayudarte a _**estructurar**_ tu HTML.
 
 _La última sección no es tan detallada como las otras, ¡buena suerte!_ 😄
-
+<br>
 <br>
 ![](https://res.cloudinary.com/ihwebdeb/image/upload/v1571085836/Ironhack/spotify-prototype_1x_ahk8ep.jpg)
 
