@@ -1,0 +1,12 @@
+{
+  "name": "practica-html-css",
+  "version": "1.0.0",
+  "description": "Practica de HTML y CSS",
+  "keywords": [
+    "html",
+    "css",
+    "web development"
+  ],
+  "author": "Alex Muñoz <https://github.com/alexmf91>",
+  "license": "MIT"
+}
