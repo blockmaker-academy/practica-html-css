@@ -61,7 +61,6 @@ En general, los diseños de sitios web no aparecen de la nada, por lo que es pro
 
 _La última sección no es tan detallada como las otras, ¡buena suerte!_ 😄
 
-💪 💪 💪
 <br>
 ![](https://res.cloudinary.com/ihwebdeb/image/upload/v1571085836/Ironhack/spotify-prototype_1x_ahk8ep.jpg)
 
