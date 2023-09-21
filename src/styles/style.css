@@ -1,8 +1,44 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/* Configuración general de la pantalla */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Diseño del header*/
+header {
+/* Pongo un ancho y una altura automatica que se ajusta al contenido del header que ocupe el 100% */
+    display:block;
+    width: 100%; 
+    height: auto;
+}
+/* El header tiene dos elementos uno es el logo y otro es la barra de navegación los tengo que centrar en altura y ponerlos cada uno en los extremos del header */
+    .posiciones_header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+    }
+    /* Ajusto el tamaño del icono de spotify cin un margen de un 2% alrredor de la imagen*/
+    .posiciones_header img {
+        padding: 2%;
+        width: 20%;
+        height: auto;
+    }
+    /* Diseño la barra de navegación con otro flex para poner los elementos en linea  ,el tamaño del texto y color */
+    .posiciones_header nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 2vw;
+    }
+    .posiciones_header li {
+        padding: 2vw;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 5em;
+        color: black;
+    }
