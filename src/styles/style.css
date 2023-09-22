@@ -86,7 +86,7 @@ header {
           width: 100%;
         }
       }
-/*diseño del texto central */
+    /*diseño del texto central */
       @keyframes text_mov_h2 {
         from {
           margin-left: 100%;
@@ -98,7 +98,51 @@ header {
           width: 100%;
         }
     }
-    
+    /* DIseño contenedor 2 */
+    .contenedor2 {
+        width: 100vw;
+        display: block;
+    }
+    /* Posicionamiento y diseño del texto superior */
+    #Texto_intermedio {
+        position: absolute;
+        width: 29vw;
+        padding: 1vw;
+        margin-left: 35vw;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:2vw ;
+        border-bottom: 0.5vw solid rgb(53, 180, 116);
+    }
+    .lista_contenedor2 {
+        position:absolute;
+        top: 85vw;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3, 1vw); /* Crea tres columnas de igual ancho */
+        gap:30vw
+    }
+    .lista_contenedor2 ul img {
+        margin-left: 13vw;
+        width: 10vw;
+        height: auto;
+    }
+    .contenedor2 ul h2 {
+        text-align: center;
+        width: 36vw;
+        color:rgb(53, 180, 116);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:2vw;
+    }
+    .contenedor2 ul p {
+        margin-left: 10vw;
+        width: 15vw;
+        text-align:center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:1.25vw;
+    }
+
 
 
 
