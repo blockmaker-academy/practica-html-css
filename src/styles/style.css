@@ -6,39 +6,121 @@ White: #FFF
 */
 /* Configuración general de la pantalla */
 * {
+    width: 100%;
     margin: 0px;
-    padding: 0px;
 }
 /* Diseño del header*/
 header {
 /* Pongo un ancho y una altura automatica que se ajusta al contenido del header que ocupe el 100% */
     display:block;
-    width: 100%; 
-    height: auto;
+    width: 100vw;
 }
 /* El header tiene dos elementos uno es el logo y otro es la barra de navegación los tengo que centrar en altura y ponerlos cada uno en los extremos del header */
     .posiciones_header {
+        width:100%;
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content:space-between;
     }
     /* Ajusto el tamaño del icono de spotify cin un margen de un 2% alrredor de la imagen*/
     .posiciones_header img {
-        padding: 2%;
-        width: 20%;
+        padding: 2vw;
+        width: 20vw;
         height: auto;
     }
     /* Diseño la barra de navegación con otro flex para poner los elementos en linea  ,el tamaño del texto y color */
-    .posiciones_header nav ul {
+    .posiciones_header ul {
+        width: 20vw;
+        margin-left: 35vw;
         display: flex;
-        flex-direction: row;
         list-style: none;
-        padding: 2vw;
     }
-    .posiciones_header li {
-        padding: 2vw;
+    .posiciones_header ul li {
+        padding: 1vw;
+        text-decoration: none;
         font-family:Arial, Helvetica, sans-serif;
-        font-size: 5em;
+        font-size: 2vw;
         color: black;
+    }
+
+    /* Diseñop del primer contenedor de la zona principal */
+    .contenedor1 {
+        display: block;
+        width: 100vw;
+    }
+    /* Posicionamiento de la imagen */
+    .contenedor1 img {
+        position:relative;
+        width: 100vw;
+    }
+    /* Posicionamiento de los textos y animación*/
+    .contenedor1 h2 {
+        position: absolute;
+        top:30vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10vw;
+        text-align: center;
+        color:white;
+        animation-duration: 2s;
+        animation-name: text_mov_h2;
+    }
+    .contenedor1 p {
+        position: absolute;
+        top: 45vw;
+        width: 100vw;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        animation-duration: 2s;
+        animation-name: text_mov_p;
+    }
+    /* Animación de texto p */
+    @keyframes text_mov_p {
+        from {
+          margin-left: -100%;
+          width: 100%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+/*diseño del texto central */
+      @keyframes text_mov_h2 {
+        from {
+          margin-left: 100%;
+          width: 100%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+    }
+    
+
+
+
+
+
+
+/* Estilos para pantallas pequeñas */
+
+    @media (max-width: 768px) {
+        /* Aquí van tus reglas de estilo para pantallas pequeñas */
+        header {
+            flex-direction: column;
+        }
+
+    }
+  
+    /* Estilos para pantallas medianas */
+    @media (min-width: 769px) and (max-width: 1024px) {
+    /* Aquí van tus reglas de estilo para pantallas medianas */
+    }
+
+    /* Estilos para pantallas grandes */
+    @media (min-width: 1025px) {
+    /* Aquí van tus reglas de estilo para pantallas grandes */
     }
