@@ -8,6 +8,7 @@ White: #FFF
 * {
     width: 100%;
     margin: 0px;
+    list-style: none;
     text-decoration: none;
 }
 /* Diseño del header*/
