@@ -38,7 +38,7 @@ header {
         padding: 1vw;
         text-decoration: none;
         font-family:Arial, Helvetica, sans-serif;
-        font-size: 2vw;
+        font-size:2vw;
         color: black;
     }
 
@@ -194,10 +194,27 @@ header {
         height: auto;
     }
     footer {
-        margin-left: 5vw;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1vw;
+        display: block;
+        margin-left: 5dvw;
+        width: 45vw;
+        height: 5vw;
+        
     }
+    .contenedor4 {
+        display: flex;
+        align-items: center;
+        border-bottom: 0.35vw solid lightskyblue;
+    }
+    .contenedor4 img {
+        width: 25vw;
+        height: auto;
+    }
+    .contenedor4 p {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+    }
+
 
 
 
@@ -210,14 +227,20 @@ header {
         /* Aquí van tus reglas de estilo para pantallas pequeñas */
         header {
             flex-direction: column;
+            font-size: 5em;
         }
-        .lista_contenedor2 {
+        .lista_contenedor3_grid {
             display: flex;
             flex-direction: column;
         }
+        .lista_contenedor3_grid h3 {
+            font-size:5em ;
+        }
+        .lista_contenedor3_grid p {
+            font-size: 3em;
+        }
 
     }
-  
     /* Estilos para pantallas medianas */
     @media (min-width: 769px) and (max-width: 1024px) {
     /* Aquí van tus reglas de estilo para pantallas medianas */
