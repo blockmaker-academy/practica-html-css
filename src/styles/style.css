@@ -126,11 +126,13 @@ header {
 
     }
     .lista_contenedor2 ul img {
+        list-style: none;
         margin-left: 13vw;
         width: 10vw;
         height: auto;
     }
     .lista_contenedor2 ul h2 {
+        list-style: none;
         text-align: center;
         width: 36vw;
         color:rgb(53, 180, 116);
@@ -138,6 +140,7 @@ header {
         font-size:2vw;
     }
     .lista_contenedor2 ul p {
+        list-style: none;
         margin-left: 10vw;
         width: 15vw;
         text-align:center;
