@@ -8,6 +8,7 @@ White: #FFF
 * {
     width: 100%;
     margin: 0px;
+    text-decoration: none;
 }
 /* Diseño del header*/
 header {
@@ -32,6 +33,7 @@ header {
         width: 20vw;
         margin-left: 35vw;
         display: flex;
+        text-decoration: none;
         list-style: none;
     }
     .posiciones_header ul li {
@@ -102,6 +104,8 @@ header {
     .contenedor2 {
         width: 100vw;
         display: block;
+        list-style: none;
+        text-decoration: none;
     }
     /* Posicionamiento y diseño del texto superior */
     #Texto_intermedio {
@@ -120,6 +124,7 @@ header {
         top: 85vw;
         display: grid;
         list-style: none;
+        text-decoration: none;
         grid-template-columns: repeat(3, 1vw); /* Crea tres columnas de igual ancho */
         gap:30vw;
         align-items: center;
@@ -127,12 +132,14 @@ header {
     }
     .lista_contenedor2 ul img {
         list-style: none;
+        text-decoration: none;
         margin-left: 13vw;
         width: 10vw;
         height: auto;
     }
     .lista_contenedor2 ul h2 {
         list-style: none;
+        text-decoration: none;
         text-align: center;
         width: 36vw;
         color:rgb(53, 180, 116);
@@ -141,6 +148,7 @@ header {
     }
     .lista_contenedor2 ul p {
         list-style: none;
+        text-decoration: none;
         margin-left: 10vw;
         width: 15vw;
         text-align:center;
