@@ -119,6 +119,7 @@ header {
         position:absolute;
         top: 85vw;
         display: grid;
+        list-style: none;
         grid-template-columns: repeat(3, 1vw); /* Crea tres columnas de igual ancho */
         gap:30vw;
         align-items: center;
