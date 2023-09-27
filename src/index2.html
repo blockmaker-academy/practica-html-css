@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Spotify Clone</title>
+    <!-- No olvides de añadir el link de tu hoja de estilos -->
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+  </head>
+  <body>
+    <header><!-- Introducimos dos elemtos un logo de spotify y una barra de navegación para la cualñ usamos una lista-->
+      <div class="posiciones_header">
+        <img src="images/spotify-logo.png" alt="icono spotify"> <!-- imagen del logo de spotify -->
+        <nav> <!-- Creacion de la barra navegadora -->
+          <ul><!-- Lista que contiene los enlaces de la berra de navegación -->
+            <li><a href="https://www.spotify.com/es/premium/">Premium</a></li>
+            <li><a href="https://open.spotify.com/intl-es?">Discover</a></li>
+            <li><a href="https://support.spotify.com/es/">Help</a></li>
+            <li><a href="https://www.spotify.com/es/download/mac/">Download</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main><!-- zona principal de la web donde tendremos varios contenedores dividos en secciones -->
+      <section class="contenedor1"><!-- Primer contenedor donde ubicaremos una imagen como background que cubra todo el comtendor y un texto centrado con animación-->
+        <div>
+          <img src="images/landing.jpg" alt="imagen de fondo" >
+          <h2>Music for eveyone.</h2>
+          <p>Spotify is now free on mobile, tablet and computer.<br>
+          Listen to the right music, wherever you are.</p>
+        </div>
+      </section>
+      <section class="contenedor2">
+        <div id="Texto_intermedio">
+          <h2>What´s on Spotify?</h2>
+        </div>
+        <div class="lista_contenedor2"><!-- Crear tres bloques con sus imagenes y textos  cada uno para ello creo tres listas y las distribullo paor la pantalla-->
+          <ul>
+            <li><img src="../src/images/music-icon.png" target="music_icon"><li>
+            <li><h2>Millions of Songs</h2></li>
+            <li><p>There are millions of songs on Spotify </p></li>
+          </ul>
+          <ul>
+            <li><img src="../src/images/high-quality-icon.png" target="hd_icon"><li></li>
+            <li><h2>HD Music</h2></li>
+            <li><p>Listen to music as if you were listening live</p></li>
+          </ul>
+          <ul>
+            <li><img src="../src/images/devices-icon.png" target="device_icon"><li></li>
+            <li><h2>Stream Everywhere</h2></li>
+            <li><p>Stream music  on  your  smartphone,  tablet or 
+              computer</p></li>
+          </ul>
+
+        </div>
+      </section>
+      <section class="contenedor3">
+        <div id="Kanye_Text">
+          <h2>It’s as yeezy as Kanye West. </h2>
+        </div>
+        <section class="contenedor3_grid">
+          <div>
+            <dl>
+            <dt><h3>Search </h3></dt>
+            <dd><p>Know what you want to listen to?<br>
+              Just search and hit play.</p></dd>
+            <dt><h3>Browse</h3></dt>
+            <dd><p>Check out the latest charts,<br>
+              brand new releases and great<br>
+              playlists for right now.</p></dd>
+            <dt><h3>Discover</h3></dt>
+            <dd><p>Enjoy new music every Monday<br>
+              with your own personal playlist.<br>
+              Or sit back and enjoy Radio.</p></dd>
+            </dl>
+          </div>
+          <div id="spotify_icon">
+            <img src="../src/images/spotify-icon-white.png" alt="white_icon">
+          </div>
+          <div id="spotify_app">
+            <img src="../src/images/spotify-app.jpg" alt="spotify_app" >
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section class="contenedor4">
+        <img src="../src/images/blockmaker-logo.png" alt="blockmaker logo">
+        <p>
+          Contacto: juagilei@gmail.com
+        </p>
+    </section>
+    </footer>
+  </body>
+</html>
