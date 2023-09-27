@@ -236,7 +236,7 @@ header {
 
 /* Estilos para pantallas pequeñas */
 
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         /* Aquí van tus reglas de estilo para pantallas pequeñas */
         header {
             flex-direction: column;
@@ -255,6 +255,6 @@ header {
 
     }
     /* Estilos para pantallas medianas */
-    @media (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
     /* Aquí van tus reglas de estilo para pantallas medianas */
     }
