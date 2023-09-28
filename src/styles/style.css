@@ -10,6 +10,7 @@ White: #FFF
     margin: 0px;
     list-style: none;
     text-decoration: none;
+
 }
 /* Diseño del header*/
 header {
@@ -34,18 +35,16 @@ header {
         width: 20vw;
         margin-left: 35vw;
         display: flex;
-        text-decoration: none;
-        list-style: none;
+        
     }
     .posiciones_header ul li {
         padding: 1vw;
-        text-decoration: none;
         font-family:Arial, Helvetica, sans-serif;
         font-size:2vw;
         color: black;
     }
 
-    /* Diseñop del primer contenedor de la zona principal */
+    /* Diseño del primer contenedor de la zona principal */
     .contenedor1 {
         display: block;
         width: 100vw;
@@ -105,8 +104,7 @@ header {
     .contenedor2 {
         width: 100vw;
         display: block;
-        list-style: none;
-        text-decoration: none;
+       
     }
     /* Posicionamiento y diseño del texto superior */
     #Texto_intermedio {
@@ -124,8 +122,6 @@ header {
         position:absolute;
         top: 85vw;
         display: grid;
-        list-style: none;
-        text-decoration: none;
         grid-template-columns: repeat(3, 1vw); /* Crea tres columnas de igual ancho */
         gap:30vw;
         align-items: center;
@@ -139,8 +135,7 @@ header {
         height: auto;
     }
     .lista_contenedor2 ul h2 {
-        list-style: none;
-        text-decoration: none;
+       
         text-align: center;
         width: 36vw;
         color:rgb(53, 180, 116);
@@ -148,8 +143,7 @@ header {
         font-size:2vw;
     }
     .lista_contenedor2 ul p {
-        list-style: none;
-        text-decoration: none;
+        
         margin-left: 10vw;
         width: 15vw;
         text-align:center;
@@ -254,7 +248,4 @@ header {
         }
 
     }
-    /* Estilos para pantallas medianas */
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Aquí van tus reglas de estilo para pantallas medianas */
-    }
+  
