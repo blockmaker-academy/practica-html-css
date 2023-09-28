@@ -1,8 +1,251 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+/* Configuración general de la pantalla */
+* {
+    width: 100%;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+
+}
+/* Diseño del header*/
+header {
+/* Pongo un ancho y una altura automatica que se ajusta al contenido del header que ocupe el 100% */
+    display:block;
+    width: 100vw;
+}
+/* El header tiene dos elementos uno es el logo y otro es la barra de navegación los tengo que centrar en altura y ponerlos cada uno en los extremos del header */
+    .posiciones_header {
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+    /* Ajusto el tamaño del icono de spotify cin un margen de un 2% alrredor de la imagen*/
+    .posiciones_header img {
+        padding: 2vw;
+        width: 20vw;
+        height: auto;
+    }
+    /* Diseño la barra de navegación con otro flex para poner los elementos en linea  ,el tamaño del texto y color */
+    .posiciones_header ul {
+        width: 20vw;
+        margin-left: 35vw;
+        display: flex;
+        
+    }
+    .posiciones_header ul li {
+        padding: 1vw;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:2vw;
+        color: black;
+    }
+
+    /* Diseño del primer contenedor de la zona principal */
+    .contenedor1 {
+        display: block;
+        width: 100vw;
+    }
+    /* Posicionamiento de la imagen */
+    .contenedor1 img {
+        position:relative;
+        width: 100vw;
+    }
+    /* Posicionamiento de los textos y animación*/
+    .contenedor1 h2 {
+        position: absolute;
+        top:30vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10vw;
+        text-align: center;
+        color:white;
+        animation-duration: 2s;
+        animation-name: text_mov_h2;
+    }
+    .contenedor1 p {
+        position: absolute;
+        top: 45vw;
+        width: 100vw;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        animation-duration: 2s;
+        animation-name: text_mov_p;
+    }
+    /* Animación de texto p */
+    @keyframes text_mov_p {
+        from {
+          margin-left: -100%;
+          width: 100%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    /*diseño del texto central */
+      @keyframes text_mov_h2 {
+        from {
+          margin-left: 100%;
+          width: 100%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+    }
+    /* DIseño contenedor 2 */
+    .contenedor2 {
+        width: 100vw;
+        display: block;
+       
+    }
+    /* Posicionamiento y diseño del texto superior */
+    #Texto_intermedio {
+        position: absolute;
+        width: 29vw;
+        padding: 1vw;
+        margin-left: 35vw;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:2vw ;
+        border-bottom: 0.5vw solid rgb(53, 180, 116);
+    }
+    .lista_contenedor2 {
+        position:absolute;
+        top: 85vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1vw); /* Crea tres columnas de igual ancho */
+        gap:30vw;
+        align-items: center;
+
+    }
+    .lista_contenedor2 ul img {
+        list-style: none;
+        text-decoration: none;
+        margin-left: 13vw;
+        width: 10vw;
+        height: auto;
+    }
+    .lista_contenedor2 ul h2 {
+       
+        text-align: center;
+        width: 36vw;
+        color:rgb(53, 180, 116);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:2vw;
+    }
+    .lista_contenedor2 ul p {
+        
+        margin-left: 10vw;
+        width: 15vw;
+        text-align:center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:1.25vw;
+    }
+    .contenedor3 {
+        display: block;
+        margin-top: 25vw;
+        margin-left: 5vw;
+        position: relative;
+        width: 90vw;
+        height: 47vw;
+        background-color: rgb(53, 180, 116);
+
+    }
+    #Kanye_Text {
+        color:white;
+        padding-top:3vw;
+        margin-left: 3vw;
+        width: 41vw;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        border-bottom: solid 0.35vw white;
+    }
+    .contenedor3_grid {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        
+
+    }
+    .contenedor3_grid h3 {
+        padding-top: 2vw;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+    }
+    .contenedor3_grid p {
+        padding-top: 2vw;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+        font-weight: lighter;
+    }
+    #spotify_icon {
+        width: 20vw;
+        height: auto;
+    }
+    #spotify_app {
+        width: 20vw;
+        height: auto;
+    }
+    footer {
+        display: block;
+        margin-left: 5dvw;
+        width: 45vw;
+        height: 5vw;
+        
+    }
+    .contenedor4 {
+        display: flex;
+        align-items: center;
+        border-bottom: 0.35vw solid lightskyblue;
+    }
+    .contenedor4 img {
+        width: 25vw;
+        height: auto;
+    }
+    .contenedor4 p {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+    }
+
+
+
+
+
+
+
+/* Estilos para pantallas pequeñas */
+
+    @media screen and (max-width: 768px) {
+        /* Aquí van tus reglas de estilo para pantallas pequeñas */
+        header {
+            flex-direction: column;
+            font-size: 5em;
+        }
+        .lista_contenedor3_grid {
+            display: flex;
+            flex-direction: column;
+        }
+        .lista_contenedor3_grid h3 {
+            font-size:5em ;
+        }
+        .lista_contenedor3_grid p {
+            font-size: 3em;
+        }
+
+    }
+  
