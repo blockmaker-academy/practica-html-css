@@ -38,6 +38,38 @@ header {
         color: black;
 
     }
+main {
+    width:100vw;
+    background-color: antiquewhite;
+}
+    section_1 {
+        display: block;
+        position: relative;
+        align-items: center;
+    }
+        section_1 img {
+            width: 100vw;
+        }
+        section_1 h2 {
+            position: absolute;
+            width:90vw;
+            top:10vw;
+            left:5%;
+            text-align: center;
+            font-size: 10vw;
+            color: white;
+        }
+        section_1 p {
+            position: absolute;
+            width:90vw;
+            top:30vw;
+            left: 5%;
+            text-align: center;
+            font-size: 3vw;
+            color: white;
+        }
+    
+    
 
 @media (min-width:720px){
 
