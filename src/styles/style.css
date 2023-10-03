@@ -17,6 +17,7 @@ White: #FFF
 header {
     width: 100%;
 }
+    /* Bloque en el header con una imagen y una barra de navegación */
     header section {
         padding: 4%;
         display: flex;
@@ -39,9 +40,9 @@ header {
 
     }
 main {
-    width:100vw;
-    background-color: antiquewhite;
+    width: 100vw;
 }
+    /* Primer bloque imagen y texto integrado */
     section_1 {
         display: block;
         position: relative;
@@ -68,6 +69,7 @@ main {
             font-size: 3vw;
             color: white;
         }
+    /* Segundo bloque texto intermedio */
     section_2 {
         display: block;
         width:45vw;
@@ -78,7 +80,29 @@ main {
         font-size: 4.9vw;
         border-bottom: 1vw solid #00B172;
     }
-    
+    /* Tercer bloque con una lista compuesta por imagenes y texto de diferentes colores */
+    section_3 {
+        display: block;
+        width:60vw;
+        margin-left: 20vw;
+    }
+        section_3 img {
+            margin-left: 6vw;
+            width: 30vw;
+        }
+        section_3 h2 {
+            width:50vw;
+            margin-left: -3vw;
+            font-size: 6vw;
+            text-align: center;
+            color:#00B172;
+        }
+        section_3 p {
+            width:50vw;
+            margin-left: -3vw;
+            text-align: center;
+            font-size: 3vw;
+        }
     
 
 @media (min-width:720px){
@@ -88,22 +112,23 @@ main {
         flex-direction: column;
         padding:3%;
     }
-    header img {
-        width: 40%;
-    }
-    header nav ul {
+        header img {
+            width: 40%;
+        }
+        header nav ul {
 
-        display: flex;
-        align-items: center;
-        justify-content:space-around;
-        font-size: 2rem;
-        margin-left: -5%;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            font-size: 2rem;
+            margin-left: -5%;
 
-        
-    }
-    header li {
-        padding: 3%;
-    }
+            
+        }
+        header li {
+            padding: 3%;
+        }
+   
 
     
 }
@@ -130,4 +155,27 @@ main {
             padding: 2%;
             font-size: 1.75rem;
         }
+    section_3 {
+        display:flex;
+        width:100vw;
+        margin-left: -0.5vw;
+        align-items: center;
+        justify-content:space-around;
+    }
+        section_3 img {
+            width: 15vw;
+        }
+        section_3 h2 {
+            width:30vw;
+            text-align: center;
+            font-size: 3vw;
+            color:#00B172;
+        }
+        section_3 p {
+            width:20vw;
+            margin-left: 3vw;
+            text-align: center;
+            font-size: 1.75vw;
+        }
+
 }
