@@ -14,30 +14,6 @@ White: #FFF
     list-style: none;
 }
 
-header{
-    display: block;
-}   
-    header section {
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        padding: 2%;
-    }
-    header img {
-        width: 20vw;
-    }
-    
-    header ul {
-        width: 35vw;
-        display: flex;
-    }
-    header li {
-        padding: 2%;
-        font-size: 1.75rem;
-    }
-
-@media (max-width:719px) {
-    
 header {
     width: 100%;
 }
@@ -62,8 +38,8 @@ header {
         color: black;
 
     }
-}
-@media (max-width:1023px){
+
+@media (min-width:720px){
 
     header section {
         display: flex;
@@ -74,7 +50,7 @@ header {
         width: 40%;
     }
     header nav ul {
-        width: 100%;
+
         display: flex;
         align-items: center;
         justify-content:space-around;
@@ -88,4 +64,28 @@ header {
     }
 
     
+}
+@media (min-width:1024px) {
+    header{
+        display: block;
+        width:100%;
+    }   
+        header section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-between;
+            padding: 2%;
+        }
+        header img {
+            width: 20vw;
+        }
+        
+        header ul {
+            display: flex;
+        }
+        header li {
+            padding: 2%;
+            font-size: 1.75rem;
+        }
 }
