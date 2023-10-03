@@ -13,9 +13,31 @@ White: #FFF
     text-decoration: none;
     list-style: none;
 }
+
+header{
+    display: block;
+}   
+    header section {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 2%;
+    }
+    header img {
+        width: 20vw;
+    }
+    
+    header ul {
+        width: 35vw;
+        display: flex;
+    }
+    header li {
+        padding: 2%;
+        font-size: 1.75rem;
+    }
+
 @media (max-width:719px) {
     
-
 header {
     width: 100%;
 }
@@ -41,7 +63,7 @@ header {
 
     }
 }
-@media (min-width:720px){
+@media (max-width:1023px){
 
     header section {
         display: flex;
@@ -67,4 +89,3 @@ header {
 
     
 }
-
