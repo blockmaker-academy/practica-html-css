@@ -171,6 +171,16 @@ main {
             margin-left: 3vw;
             width:80vw;
         }
+footer {
+    padding-top: 2vw;
+    margin-left: 5vw;
+}
+footer img {
+    width:50vw;
+}
+footer p {
+    font-size: 1.25rem;
+}
         
 
 @media (min-width:720px){
