@@ -17,6 +17,12 @@
     font-size: 50px;
     text-align: center;
 }
+.subrayado {
+    background-color: white;
+    color: rgb(0, 208, 118);
+    font-weight: bold;
+    
+}
 .greentext{
     color: rgb(0, 208, 118);
     size: 50px;
