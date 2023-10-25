@@ -21,10 +21,20 @@ header img {
     height: auto; /* Altura ajustada automáticamente para mantener la proporción */
 }
 
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1,5vw; /* Espaciado a la derecha de cada <li> */
+}
+
+header li{
+    list-style-type: none;
+}
+
 /* Estilos para los enlaces a del elemento nav*/
 header a {
     color:black; /* Color de texto de los enlaces */
-    gap: 1,5vw; /* Espaciado a la derecha de cada enlace */
     font-size: 2vw;
     font-weight:lighter;
     text-decoration: none;
@@ -62,7 +72,7 @@ main {
 }
 
 /* Estilos para el h1 y los párrafos*/
-.section-foto h1 {
+.section-foto h2 {
     font-size: 7vw;
     color: azure;
     padding-bottom: 2vh;
@@ -84,7 +94,7 @@ main {
 }
 
 /* Estilos para el texto h1 y el elemento ul en section-quehay*/
-.section-quehay h1 {
+.section-quehay h2 {
     font-size: 4vw;
     color: black;
 }
@@ -145,12 +155,14 @@ main {
     margin-bottom: 2vh;
 }
 
+.section-verde ul,
+.section-verde li,
 .section-verde h3,
-.section-verde p,
-.section-verde ul {
+.section-verde p {
     color: white;
     margin: 5vh;
     align-items: start;
+    list-style-type: none;
 }
 
 /* Estilos para la imagen de section-verde */
