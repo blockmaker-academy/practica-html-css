@@ -1,0 +1,203 @@
+/* Estilos genericos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el elemento nav */
+header {
+    background-color:white; /* Color de fondo del encabezado */
+    height:10vh;
+    padding: 2vh 2vw;
+    display: flex; /* Para que los elementos estén en línea */
+    justify-content: space-between; /* Para alinear la imagen a la derecha y los enlaces a la izquierda */
+    align-items: center;
+}
+
+/* Estilos para la imagen del elemento nav*/
+header img {
+    width: 20vw; /* Ancho de la imagen */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1,5vw; /* Espaciado a la derecha de cada <li> */
+}
+
+header li{
+    list-style-type: none;
+}
+
+/* Estilos para los enlaces a del elemento nav*/
+header a {
+    color:black; /* Color de texto de los enlaces */
+    font-size: 2vw;
+    font-weight:lighter;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para main */
+main {
+    display:flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Estilos para la section-foto */
+.section-foto {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /* Para centrar verticalmente */
+    align-items: center; /* Para centrar horizontalmente */
+    /* Imagen de fondo */
+    /* Definir la URL de la imagen */
+    background-image: url(/practica-html-css/src/images/landing.jpg);
+    /* Repetir la imagen vertical y horizontalmente */
+    background-repeat:no-repeat;
+    /* Posición de la imagen */
+    background-position: center;
+    /* Tamaño de la imagen */
+    background-size:cover;
+}
+
+/* Estilos para el h1 y los párrafos*/
+.section-foto h2 {
+    font-size: 7vw;
+    color: azure;
+    padding-bottom: 2vh;
+}
+
+.section-foto p {
+    font-size: 2,7vw;
+    color: azure;
+}
+
+/* Estilos para la section-quehay */
+.section-quehay {
+    height: 100vh;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /* Para centrar verticalmente */
+    align-items: center; /* Para centrar horizontalmente */
+}
+
+/* Estilos para el texto h1 y el elemento ul en section-quehay*/
+.section-quehay h2 {
+    font-size: 4vw;
+    color: black;
+}
+
+/* línea verde */
+.linea-verde {
+    width: 34vw; /* Ancho de la línea (ajusta según tus preferencias) */
+    height: 2px; /* Grosor de la línea (ajusta según tus preferencias) */
+    background-color:rgb(15, 114, 68); /* Color de la línea (en este caso, verde) */
+    margin-bottom: 10vh;
+}
+
+/* Contenedor de las listas ul */
+.grid-quehay{
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 80px 80px 80px;
+    justify-content:space-around;
+    gap: 4vh;   
+    align-items: center;
+}
+
+#imagen {
+    width:fit-content;
+    height:15vh;
+    margin-bottom: 5vh;
+}
+
+#linea {
+    font-weight: bold;
+    color: rgb(15, 114, 68);
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#parrafo {
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+/* Estilos para la section-verde */
+.section-verde {
+    position: relative;
+    background-color: rgb(15, 114, 68);
+    gap: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilos para los textos de section-verde */
+.section-verde h2{
+    color: white;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+}
+
+.section-verde ul,
+.section-verde li,
+.section-verde h3,
+.section-verde p {
+    color: white;
+    margin: 5vh;
+    align-items: start;
+    list-style-type: none;
+}
+
+/* Estilos para la imagen de section-verde */
+.section-verde img {
+    width: 30vw;
+    margin: 5vh;
+}
+
+/* línea blanca */
+.linea-blanca {
+    width: 36vw; /* Ancho de la línea (ajusta según tus preferencias) */
+    height: 2px; /* Grosor de la línea (ajusta según tus preferencias) */
+    background-color:white; /* Color de la línea (en este caso, blanco) */
+    margin-left: 5vh;
+    margin-bottom: 10vh;
+}
+
+.box-verde{
+    position: relative;
+    width: 8vw;
+    height: auto;
+    align-items: center;
+}
+
+.box-verde img{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    width: 10vw;
+    height: auto;
+}
+
+footer p{
+    background-color: rgb(15, 114, 68);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
