@@ -11,10 +11,13 @@ White: #FFF
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    align-items: center;
 }
+
 body{
     background-color: beige;
 }
+
 header{
     background-color: white;
     position: fixed;
@@ -34,7 +37,7 @@ li{
     list-style: none;
 }
 .font-style{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 1A1A1A;
     font-size: 1.4rem;
 }
 
