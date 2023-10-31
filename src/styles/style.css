@@ -1,9 +1,149 @@
 
-body {
-color: aquamarine;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-text-shadow: 3rem cornsilk;
-Green: #00b103
-White: #FFF
+body{
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li {
+    list-style: none;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.contenedor-listas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contenedor-listas {
+    width: fit-content
+}
+@media (min-widht: 768px) {
+    .navegación-escritorio {
+        display: flex;
+    }
+    .navegador-movile {
+        display: none;
+    }
+    .contenedor-listas {
+        flex-direction: row;
+    }
+}
+.navegacion-escritorio{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    
+    gap: 10px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navegacion-principal h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.navegacion-principal p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.seccion-nuevo-spotify {
+    display: grid;
+    place-items: center;
+    padding-block: 50px;
+    gap: 40px;
+}
+
+main {
+    margin-top: 100px;
+}
+.seccion-nuevo-spotify h2 {
+    font-size: 5rem;
+}
+.seccion-nuevo-spotify ul {
+    display: flex;
+    width: fit-content;
+
+}
+.seccion-nuevo-spotify li {
+    display: grid;
+    place-items: center;
+}
+.seccion-nuevo-spotify img {
+    width: 50%;
+    max-width: 300px;
+}
+.seccion-nuevo-spotify div {
+    display: grid;
+    gap: 20px;
+}
+.seccion-nuevo-spotify h3 {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+.seccion-nuevo-spotify p {
+    font-size: medium;
+    text-align: center;
+}
+.seccion-app {
+    height: 500px;
+    background-color: green;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    margin: 0 20px;
+    color: white;
+}
+ .seccion-app img {
+    width: 250px;
+ }
+ .seccion-app ul {
+    display: grid;
+    gap: 20px;
+ }
+
+.seccion-app h2 {
+    text-decoration: underline 1px;
+    text-decoration-skip: 50px;
+    
+}
+.seccion-app div {
+    gap: 100px
+;
 }
 
